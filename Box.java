@@ -5,34 +5,34 @@ package com.company;
  */
 public class Box {
 
-    double width;
+    double widthWidth;
     double height;
     double depth;
 
     Box(double w, double h, double d) {
-        width = w;
+        widthWidth = w;
         height = h;
         depth = d;
     }
 
     Box(Box ob) {
-        width = ob.width;
+        widthWidth = ob.widthWidth;
         height = ob.height;
         depth = ob.depth;
     }
 
     Box() {
-        width = -1;
+        widthWidth = -1;
         height = -1;
         depth = -1;
     }
 
     Box(double len) {
-        width = height = depth = len;
+        widthWidth = height = depth = len;
     }
 
     double volume() {
-        return width * height * depth;
+        return widthWidth * height * depth;
     }
 
 }

@@ -9,7 +9,7 @@ public class BoxWeight extends Box {
 
     BoxWeight(double w, double h, double d, double m) {
 
-        width = w;
+        widthWidth = w;
         height = h;
         depth = d;
         weight = m;
