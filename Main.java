@@ -55,5 +55,20 @@ public class Main {
         System.out.println("f3: " + f.fact(3));
         System.out.println("f4: " + f.fact(4));
         System.out.println("f5: " + f.fact(5));*/
+
+                        // String
+        /*StringDemo symbol = new StringDemo();
+        symbol.string1();*/
+
+                        // Static
+
+        //UseStatic.meth(42);
+
+                        // Inheritance (extends)
+
+
+
+
+
     }
 }
