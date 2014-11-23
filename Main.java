@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+       Box mybox1 = new Box(); 
+       System.out.println(mybox1.width + mybox1.height);
+
                          // OverloadDemo
         /*OverloadDemo ob = new OverloadDemo();
         double result;

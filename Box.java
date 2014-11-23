@@ -2,6 +2,7 @@ package com.company;
 
 /**
  * Created by kovtunov on 23/08/14.
+CHANGED BY OLGACHE
  */
 public class Box {
 
