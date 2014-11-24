@@ -4,10 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Box mybox1 = new Box(); 
-       System.out.println(mybox1.width + mybox1.height);
-
-                         // OverloadDemo
+                           // OverloadDemo
         /*OverloadDemo ob = new OverloadDemo();
         double result;
 
@@ -24,7 +21,7 @@ public class Main {
 
         Box myclone = new Box(mybox1);
 
-        System.out.println(mybox1.widthWidth);
+
 
         /*double vol;
 

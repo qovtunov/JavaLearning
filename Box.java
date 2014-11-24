@@ -6,34 +6,34 @@ CHANGED BY OLGACHE
  */
 public class Box {
 
-    double widthWidth;
+    double width;
     double height;
     double depth;
 
     Box(double w, double h, double d) {
-        widthWidth = w;
+        width = w;
         height = h;
         depth = d;
     }
 
     Box(Box ob) {
-        widthWidth = ob.widthWidth;
+        width = ob.width;
         height = ob.height;
         depth = ob.depth;
     }
 
     Box() {
-        widthWidth = -1;
+        width = -1;
         height = -1;
         depth = -1;
     }
 
     Box(double len) {
-        widthWidth = height = depth = len;
+        width = height = depth = len;
     }
 
     double volume() {
-        return widthWidth * height * depth;
+        return width * height * depth;
     }
 
 }
